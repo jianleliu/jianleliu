@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/meme_generator/display_page.png
+image: img/meme_generator/random.png
 title: "Meme Generator"
 date: 2021
 published: true
