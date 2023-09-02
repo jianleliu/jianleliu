@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/avif_png/avif_png.png
+image: img/avif_png/avif_to.png
 title: ".AVIF to .PNG"
 date: 2022
 published: true
