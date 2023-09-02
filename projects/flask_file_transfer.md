@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/flask_file_transfer/front_img.png
+image: img/flask_file_transfer/data_transfer.png
 title: "Local File Transfer"
 date: 2023
 published: true
