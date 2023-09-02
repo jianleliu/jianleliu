@@ -27,6 +27,9 @@ On access, the home page will retrieve data from the database, processed by the 
 
 
 <img class="img-fluid" src="../img/flask_file_transfer/upload_page.png">
-Client can select the file to upload with an option to put a enter a name. The name is defaulted to "No Name". The maximum upload size can be changed in the config.py file. Once the client hit "Confirm", the browser tab will start spinnning until the browser redirect the user to a result page of either "failed" or "sucess".
+Client can select the file to upload with an option to put a enter a name. The name is defaulted to "No Name". The maximum upload size can be changed in the config.py file. Once the client hit "Confirm", the browser tab will start spinnning until the browser redirect the user to a result page of either "failed" or "sucess".   
+
+
+<hr>
  
 Source: <a href="https://github.com/jianleliu/flask_file_transfer/tree/main">flask_file_transfer</a>
