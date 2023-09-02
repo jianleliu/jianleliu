@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/flask_file_transfer/home-page.png
-title: "Vacay"
+image: img/flask_file_transfer/home_page.png
+title: "Local File Transfer"
 date: 2023
 published: true
 labels:
@@ -11,6 +11,7 @@ labels:
   - CSS
   - Python
   - SQL
+  - MySQL
   - Flask
   - Jquery
 summary: "Files can be uploaded and downloaded to/from mysql database. Upload size limits can be changed in the config.py file."
