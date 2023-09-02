@@ -35,4 +35,4 @@ Client can select the file to upload with an option to put a enter a name. The n
 
 <hr>
  
-Source: <a href="https://github.com/jianleliu/flask_file_transfer/tree/main">flask_file_transfer</a>
+Source: <a href="https://github.com/jianleliu/flask_file_transfer/tree/main">jianleliu/flask_file_transfer</a>
