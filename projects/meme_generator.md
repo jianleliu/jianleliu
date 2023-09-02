@@ -13,7 +13,7 @@ summary: "This program gets images links from a subchannel called r/Meme in a so
 ---
 
 
-<div class="text-center p-4">
+<div class="text-center flex p-4">
   <img width="300px" src="../img/meme_generator/display_page.png" >
   <img width="300px" src="../img/meme_generator/setting_page.png" >
 </div>
