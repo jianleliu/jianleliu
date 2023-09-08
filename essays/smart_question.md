@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Etiquette when asking questions."
 # All dates must be YYYY-MM-DD format!
-date: 2023-09/07/23
+date: 2023-09-07
 published: true
 labels:
   - SMART 
