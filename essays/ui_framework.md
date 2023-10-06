@@ -29,9 +29,12 @@ HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) serve as the f
 Bootstrap, for example, is a UI framework that serves as a great example of how these challenges can be effectively addressed. It is renowned for being beginner-friendly, providing a wealth of pre-designed components and styles that newcomers to web development can readily utilize. Additionally, Bootstrap is inherently responsive, ensuring that websites built with it adapt seamlessly to various screen sizes and devices, a crucial feature in modern diverse digital landscape. Moreover, Bootstrap's well-documented and standardized structure makes it remarkably easy for developers to collaborate with one another, as it fosters a shared understanding of code and design principles. This not only enhances teamwork but also accelerates project development, making it significantly less time-consuming than starting from scratch with pure HTML and CSS. Thus, frameworks like Bootstrap play a pivotal role in simplifying web development, allowing developers to create attractive and functional websites efficiently while promoting accessibility for both beginners and experienced programmers.
 
 
+<img class="rounded float-start pe-4" src="../img/ui_framework/recreation.png" width="600">  
+
+###### Above is a website recreation I made as a UI design beginner within a couple of hours.
+
 ## Conclusion
 In conclusion, User Interface (UI) frameworks represent an indispensable foundation for modern software development, shaping the way users interact with digital platforms. These frameworks provide developers with a structured and standardized approach to building user interfaces, ultimately saving time and resources. By offering a toolkit of components, styles, and design patterns, UI frameworks ensure consistency, maintainability, and resource efficiency. However, their benefits go beyond efficiency, encompassing improved collaboration, accessibility, and adaptability.
 
-#### Below is a website recreation I made as a UI design beginner within a couple of hours.
-<img class="rounded float-start pe-4" src="../img/ui_framework/recreation.png" width="600">  
+
 
