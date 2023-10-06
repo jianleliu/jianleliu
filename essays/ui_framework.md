@@ -30,6 +30,7 @@ Bootstrap, for example, is a UI framework that serves as a great example of how 
 
 
 <img class="rounded float-start pe-4" src="../img/ui_framework/recreation.png" width="600">  
+<br>
 
 ###### Above is a website recreation I made as a UI design beginner within a couple of hours.
 
