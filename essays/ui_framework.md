@@ -33,5 +33,5 @@ Bootstrap, for example, is a UI framework that serves as a great example of how 
 In conclusion, User Interface (UI) frameworks represent an indispensable foundation for modern software development, shaping the way users interact with digital platforms. These frameworks provide developers with a structured and standardized approach to building user interfaces, ultimately saving time and resources. By offering a toolkit of components, styles, and design patterns, UI frameworks ensure consistency, maintainability, and resource efficiency. However, their benefits go beyond efficiency, encompassing improved collaboration, accessibility, and adaptability.
 
 #### Below is a website recreation I made as a UI design beginner within a couple of hours.
-<img class="rounded float-start pe-4" src="../img/ui_framework/recreation.png">  
+<img class="rounded float-start pe-4" src="../img/ui_framework/recreation.png" width="600">  
 
