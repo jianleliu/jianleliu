@@ -9,7 +9,7 @@ labels:
   - AI and SWE 
   - Reflection
 ---
-
+<img class="rounded float-start pe-4" src="../img/Convenience_of_AI/AI.jpg">  
 ## Introduction
 AI is a convenience tool, and merely a tool to perform tasks with increased efficiency. In the field of SWE, where there are countless numbers of frameworks and libraries out there, it is certainly impossible for an engineer to learn and master them all. Every SWE in the field knows that when a software application has gone wrong, and the person doesn't know how to solve it, that person either asks for help, google it, scroll through long lists of documentation, or wait an unproductive amount of time for a stack overflow response. AI, in another sense, and what I viewed it, is simply an efficient library with a better search feature, but, since it is merely a library, I would still have to learn the fundamental and essential concepts as an engineer and not a bookworm. 
 
