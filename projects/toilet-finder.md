@@ -17,7 +17,7 @@ labels:
 summary: "A Toilet Finder web application specific to UH Manoa. User to find, add, review, rate, and locate the bathrooms in the Manoa campus."
 ---
 
-<img class="img-fluid col-12" src="../img/toilet-finder/homePageFinal.png"> 
+<img class="img-fluid col-10" src="../img/toilet-finder/homePageFinal.png"> 
 
 ## Overview ##
 Finding a toilet on campus that has a good clean to closeness ratio is always a lone struggle we students face each semester. We’d like to make this journey more collaborative by creating a social media web app where students are able to find the nearest bathrooms to their location.
@@ -31,23 +31,23 @@ The app will also allow students to rate a bathroom’s cleanliness level and in
 <p>
   Sign up Page: Sign up Page.
 </p>
-<img class="img-fluid col-6" src="../img/toilet-finder/SignInFinalActual.png"/> 
+<img class="img-fluid col-6" width="600" src="../img/toilet-finder/SignInFinalActual.png"/> 
 <p>
   Sign in Page: Sign in Page.
 </p>
-<img class="img-fluid col-6" src="../img/toilet-finder/SignInFInal.png"/> 
+<img class="img-fluid col-6" width="600" src="../img/toilet-finder/SignInFInal.png"/> 
 <p>
   Bathroom Directory: A user can find the highest rating bathrooms near their location by choosing a UH Manoa buildling within the directory. Bathroom directories will be organized by building and floor number. If a building or bathroom is not on the directory, users are able to add their own to the database with a submission form which automatically updates database on the Add Bathroom Page.
 </p>
-<img class="img-fluid col-12" src="../img/toilet-finder/DirectoryFinal.png"/> 
+<img class="img-fluid col-6" width="600" src="../img/toilet-finder/DirectoryFinal.png"/> 
 <p>
   Add Bathroom page: Will automatically check for available bathroom, create new ones, including new buildings and floros, if not found.
 </p>
-<img class="img-fluid col-12" src="../img/toilet-finder/AddBathroomFinal.png"/> 
+<img class="img-fluid col-6" width="600" src="../img/toilet-finder/AddBathroomFinal.png"/> 
 <p>
   Profile: Each user will have their own profile page which will show their bathroom reviews.
 </p>
-<img class="img-fluid col-12" src="../img/toilet-finder/profile_2.png"/> 
+<img class="img-fluid col-6" width="600" src="../img/toilet-finder/profile_2.png"/> 
 <br><br>
 
 ## My Role ##
@@ -73,3 +73,7 @@ During development, I’ve made a mistake forgetting to update the config file w
 ## Conclusion ##
 In conclusion, this project has been helpful for me to learn about the importance and priorities in a group developing setting. I have learned more than enough of the importance of a project lead, someone who can resolve miscommunication issues and make sure the entire team is on track and on schedule. On the other hand, I found myself enjoying designing the database schemas and satisfying the automation script I wrote for deployment. I would say that I’m most proud of the database relation I designed and the automatic deployment I implemented over the codes I wrote for this application. 
 
+<a href="https://toilet-titans.github.io/">
+  <img src="https://github.com/fluidicon.png" alt="GitHub" width="25">
+  Documentation page
+</a>
