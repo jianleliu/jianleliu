@@ -1,3 +1,17 @@
+---
+layout: project
+type: project
+image: img/meme_generator/random.png
+title: "Meme Generator"
+date: 2021
+published: true
+labels:
+  - Python
+  - PyQt5
+  - Request
+summary: "This program gets images links from a subchannel called r/Meme in a social media site called Reddit then display them in the display page. "
+---
+
 # MemeGenerator
 
 * [Purpose](#Purpose)
