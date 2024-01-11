@@ -8,7 +8,7 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "profiles": [
       { "network": "github", "username": "jianleliu", "url": "http://github.com/jianleliu" },
-      { "network": "linkedin", "username": "jian le liu", "url": "https://www.linkedin.com/in/jian-le-liu-4a104728a/" },
+      { "network": "linkedin", "username": "jianle liu", "url": "https://www.linkedin.com/in/jianle-liu-4a104728a/" },
     ]
   },
   "interests": [
@@ -36,12 +36,12 @@
       "studyType": "B.S.",
       "startDate": "2021-08",
       "endDate": "2025-05",
-      "courses": ["ICS 111/211 - Intro to programming", "ICS 311 - Data Structure and Algorithm",
-                  "ICS 321 - Database Systems I", "ICS - 212 Program Structure", "ICS 314 - Software Engineering I" 
+      "courses": ["ICS 111/211 - Intro to programming", "ICS 212 - Program Structure",
+                  "ICS 311 - Data Structure and Algorithm", "ICS 314 - Software Engineering I",
+                  "ICS 321 - Database Systems I", "ICS 332 - Operating Systems", "ICS 451 - Data Networking",
       ]
     }
   ],
-  
   "awards": [
     {
       "title": "B+ Scholarship",
