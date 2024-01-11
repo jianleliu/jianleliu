@@ -45,33 +45,38 @@ This program was created to help myself better understand about API and the pyth
 
 # Features
 ![setting page](../img/meme_generator/setting_page.png)
-  ## Sort By:
-  * has 4 elements in the dropbox: top, hot, new, and rising.
+  * Sort By:
+    - has 4 elements in the dropbox: top, hot, new, and rising.
 
-  ## Within:
-  * has 4 elements in the dropbox: hour, week, year, and all.
+  * Within:
+   - has 4 elements in the dropbox: hour, week, year, and all.
 
-  ## Repeat:
-  * True: viewed image link won't be deleted(a chance to have the same image coming up again)
-  * False: viewed image link will be deleted(no repetition)
+  * Repeat:
+    - True: viewed image link won't be deleted(a chance to have the same image coming up again)
+    - False: viewed image link will be deleted(no repetition)
 
-  ## amount:
-  * allows user to choose how many image link to request
-  * removed due to spamming
+  * amount:
+    - allows user to choose how many image link to request
+    - removed due to spamming
 
-  ## Generate:
-  * load the image links to be viewed
-  * 180 seconds cool download to avoid spamming
+  * Generate:
+    - load the image links to be viewed
+    - 180 seconds cool download to avoid spamming
 
   ![display page](../img/meme_generator/display_page.png)
-  ## Download:
-  * Download the displaying image as .png in the same directory.
+  * Download:
+    - Download the displaying image as .png in the same directory.
   
-  ## Next Image:
-  * Randomly choose a image that was generated
-    * if Repeat is false then the previous one will be delete(will never be viewed again).
+  * Next Image:
+    - Randomly choose a image that was generated
+    - if Repeat is false then the previous one will be delete(will never be viewed again).
   
 # Possible Future Improvements
-* Separate the UI code and the written code into two different py files
-* Make the image display(pixel map) auto adjust size when the MainWindow changes its size
-* Make a speed limit for requesting links so that requesting large amount of links is possible with longer time.
+1. Separate the UI code and the written code into two different py files
+2. Make the image display(pixel map) auto adjust size when the MainWindow changes its size
+3. Make a speed limit for requesting links so that requesting large amount of links is possible with longer time.
+ <hr>
+<a href="https://github.com/jianleliu/MemeGenerator">
+  <img src="https://github.com/fluidicon.png" alt="GitHub" width="25">
+  jianleliu/MemeGenerator
+</a>
