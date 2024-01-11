@@ -43,7 +43,7 @@ Client can select the file to upload with an option to put a enter a name. The n
   4. Implement dashboard.
   5. Implement try-except blocks.
  <hr>
-<a href="https://github.com/jianleliu/scripts/tree/main/avif-png">
+<a href="https://github.com/jianleliu/flask_file_transfer">
   <img src="https://github.com/fluidicon.png" alt="GitHub" width="25">
-  jianleliu/scripts/avif-png
+  jianleliu/flask_file_transfer
 </a>
