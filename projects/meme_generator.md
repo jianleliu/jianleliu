@@ -44,7 +44,7 @@ This program was created to help myself better understand about API and the pyth
 * time
 
 # Features
-![alt text](https://github.com/jianleliu/MemeGenerator/blob/main/img/setting_page.png)
+![setting page](../img/meme_generator/setting_page.png)
   ## Sort By:
   * has 4 elements in the dropbox: top, hot, new, and rising.
 
@@ -63,7 +63,7 @@ This program was created to help myself better understand about API and the pyth
   * load the image links to be viewed
   * 180 seconds cool download to avoid spamming
 
-  ![alt text](https://github.com/jianleliu/MemeGenerator/blob/main/img/display_page.png)
+  ![display page](../img/meme_generator/display_page.png)
   ## Download:
   * Download the displaying image as .png in the same directory.
   
