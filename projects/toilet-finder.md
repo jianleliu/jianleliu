@@ -47,7 +47,7 @@ The app will also allow students to rate a bathroom’s cleanliness level and in
 <p>
   Profile: Each user will have their own profile page which will show their bathroom reviews.
 </p>
-<img class="img-fluid col-6" width="600" src="../img/toilet-finder/profile_2.png"/> 
+<img class="img-fluid col-6" height="400" src="../img/toilet-finder/profile_2.png"/> 
 <br><br>
 
 ## My Role ##
@@ -55,7 +55,9 @@ I was responsible for designing and implementing the Mongo database, writing the
 <br><br>
 When designing the database relations, I found it challenging to make database future proof, that is, maintainable and works even if we decided to add more microservices in the future. So I started thinking differently, shifting from a thinking of making it work just for this application to how does it work if it’s a real life object. At the end, I arrived at a top down solution in which Bathroom is dependent on Floor, Floor is dependent on Building. By designing the database relation like this, I was able to separate other entities, such as Review and User, from depending on the 3 core entities. I have also used libraries to check for every individual data whenever the frontend invokes the function to do CRUD operations for data integrity.  
 <br><br>
-During development, I’ve made a mistake forgetting to update the config file when deploying, and it costs me hours of trying to figure out what was going wrong. So I decided to make the deployment automatic, a simple CICD pipeline. I created a deploy branch in github and wrote a github action file that triggers whenever there is a new push. When triggered, the github self runner will install the required dependencies and run meteor up(mup).  Mup will use the configure parameters(mup.js) I stored as github secret and containerize the entire application before deploying it to Digital Ocean through its API. And the beauty of all of these is a simple merge to the deploy branch.
+<img class="img-fluid col-6" height="400" src="../img/toilet-finder/cicd.png"/> 
+<br>
+During development, I’ve made a mistake forgetting to update the config file when deploying, and it costed me hours of trying to figure out what was going wrong. So I decided to make the deployment automatic, a simple CICD pipeline. I created a deploy branch in github and wrote a github action file that triggers whenever there is a new push. When triggered, the github self runner will install the required dependencies and run meteor up(mup).  Mup will use the configure parameters(mup.js) I stored as github secret and containerize the entire application before deploying it to Digital Ocean through its API. And the beauty of all of these is a simple merge to the deploy branch.
 <br><br>
 
 ## What I think I did well ##
