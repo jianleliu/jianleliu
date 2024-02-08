@@ -7,9 +7,9 @@ date: 2023
 published: true
 labels:
   - Python
-summary: "Converts all .avif images in a directory to .png format."
+summary: "Extracts .mp3 audio file from youtube video."
 ---
-<img class="img-fluid col-8" width="500" src="../img/avif_png/avif_png.png"> <br>
+<img class="img-fluid col-8" width="500" src="../img/youtube-mp3-extract/youtube.png"> <br>
 Credit: internet
 ## Incentive
 
