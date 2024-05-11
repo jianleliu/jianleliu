@@ -8,6 +8,7 @@ published: true
 labels:
   - Software Development
 ---
+<img class="rounded float-start pe-4" src="../img/design_patterns/design_patterns.png">  
 
 Throughout the process of collaborating on the development of a full stack app with my team for a client, I encountered numerous challenges and gained invaluable insights into software engineering concepts, technologies, requirements, design, quality assurance, and open-source development.
 
@@ -20,6 +21,8 @@ Another valuable skill I honed during this project was effective project managem
 A month through the project, I transitioned from a front-end to a back-end role. While I appreciated the modularity of the backend, I identified deficiencies in documentation and architectural design sophistication. The backend lacked comprehensive documentation and a forward-looking architecture, particularly concerning the management of dependencies with potential future expansions. Knowing the importance of clarity and coherence, I document my contributions meticulously, including creating a database diagram illustrating collection relationships and dependencies, along with detailed notes to enhance team comprehension.
 
 To address this, I documented the relationships and dependencies of collections in a database diagram and kept it updated, alongside explanatory notes to avoid confusion and aid team comprehension of server operations. Additionally, I maintained a Google Docs document outlining each API call, its parameters, and return types. However, I later neglected to update this google document regularly as I observed limited utilization by the team. As the application complexity increased nearing the deadline, I regretted this oversight as it hindered my maintenance efforts as development progresses. Furthermore, I learned the importance of addressing issues promptly rather than deferring them for future resolution, particularly concerning code refactoring.
+
+Additionally, one aspect that significantly eased our development process was the convenience of generative AI tools, which played a pivotal role in debugging and providing suggestions for feature implementation. These AI-powered tools streamlined our workflow by automatically identifying and fixing common coding errors, thus saving us considerable time and effort in debugging. Moreover, when faced with the task of selecting the most suitable framework for implementing a particular feature, AI served as a advanced search engine.
 
 In conclusion, working collaboratively on developing a full stack app exposed me to a variety of software engineering concepts and technologies. The experience not only enhanced my technical proficiency but also my soft skills of teamwork, communication, and problem-solving that are essential for success in the field of software engineering. 
 
