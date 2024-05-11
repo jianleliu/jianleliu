@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Toilet Finder | Jian Le Liu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jianleliu.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jian Le Liu | Professional Portfolio">
+    <meta property="og:url" content="https://jianleliu.github.io/projects/toilet-finder.html">
+    <meta property="og:title" content="Toilet Finder | Jian Le Liu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jianleliu.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Toilet Finder | Jian Le Liu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jianle Liu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Toilet Finder</h1>
+ <p><img class="img-fluid col-10" src="../img/toilet-finder/homePageFinal.png" /></p>
+
+<h2 id="overview">Overview</h2>
+<p>Finding a toilet on campus that has a good clean to closeness ratio is always a lone struggle we students face each semester. We’d like to make this journey more collaborative by creating a social media web app where students are able to find the nearest bathrooms to their location.
+<br />
+<br />
+The app will also allow students to rate a bathroom’s cleanliness level and include things that others can be weary of in the reviews. For example, the quality of soap in the bathroom, number of stalls, business at times of day, availability of female products, or if there are areas designated for users to place their belongings while using the premises.
+<br />
+<br /></p>
+<h2 id="pages">Pages</h2>
+
+<p>
+  Sign up Page: Sign up Page.
+</p>
+<p><img class="img-fluid col-6" width="600" src="../img/toilet-finder/SignInFinalActual.png" /></p>
+<p>
+  Sign in Page: Sign in Page.
+</p>
+<p><img class="img-fluid col-6" width="600" src="../img/toilet-finder/SignInFInal.png" /></p>
+<p>
+  Bathroom Directory: A user can find the highest rating bathrooms near their location by choosing a UH Manoa buildling within the directory. Bathroom directories will be organized by building and floor number. If a building or bathroom is not on the directory, users are able to add their own to the database with a submission form which automatically updates database on the Add Bathroom Page.
+</p>
+<p><img class="img-fluid col-6" width="600" src="../img/toilet-finder/DirectoryFinal.png" /></p>
+<p>
+  Add Bathroom page: Will automatically check for available bathroom, create new ones, including new buildings and floros, if not found.
+</p>
+<p><img class="img-fluid col-6" width="600" src="../img/toilet-finder/AddBathroomFinal.png" /></p>
+<p>
+  Profile: Each user will have their own profile page which will show their bathroom reviews.
+</p>
+<p><img class="img-fluid col-6" height="400" src="../img/toilet-finder/profile_2.png" /> 
+<br /><br /></p>
+
+<h2 id="my-role">My Role</h2>
+<p>I was responsible for designing and implementing the Mongo database, writing the queries for each microservices, and overseeing the deployment processes of the entire application. 
+<br /><br />
+When designing the database relations, I found it challenging to make database future proof, that is, maintainable and works even if we decided to add more microservices in the future. So I started thinking differently, shifting from a thinking of making it work just for this application to how does it work if it’s a real life object. At the end, I arrived at a top down solution in which Bathroom is dependent on Floor, Floor is dependent on Building. By designing the database relation like this, I was able to separate other entities, such as Review and User, from depending on the 3 core entities. I have also used libraries to check for every individual data whenever the frontend invokes the function to do CRUD operations for data integrity.<br />
+<br /><br />
+<img class="img-fluid col-6" height="400" src="../img/toilet-finder/cicd.png" /> 
+<br />
+During development, I’ve made a mistake forgetting to update the config file when deploying, and it costed me hours of trying to figure out what was going wrong. So I decided to make the deployment automatic, a simple CICD pipeline. I created a deploy branch in github and wrote a github action file that triggers whenever there is a new push. When triggered, the github self runner will install the required dependencies and run meteor up(mup).  Mup will use the configure parameters(mup.js) I stored as github secret and containerize the entire application before deploying it to Digital Ocean through its API. And the beauty of all of these is a simple merge to the deploy branch.
+<br /><br /></p>
+
+<h2 id="what-i-think-i-did-well">What I think I did well</h2>
+
+<ul>
+  <li>I documented all of the functions I wrote, the purpose of this function, the parameters, the return values.</li>
+  <li>I organized my code for modularity and spaces out functions with long codes into chunks with comments describing what they do.</li>
+  <li>I wrote proper github commit messages. Specifically, what/how does it run and work, for each microservice it is responsible for.</li>
+  <li>I sent instructions to frontends about importing what function to use and the return values for that specific function.
+<br /><br /></li>
+</ul>
+
+<h2 id="what-was-challenging">What was challenging</h2>
+<ul>
+  <li>Miscommunication: Oftentime during development, I had miscommunication with frontend guys, both frontend not understanding how to invoke backend functions and backend(myself) not understanding what their requirements were. I think the cause of this is the lack of planning and designing in the initial phase of development, with everyone agreeing upon the “We’ll think about it along the way” sort of mindset.</li>
+  <li>Directionlessness: The lack of planning has also caused the development lifecycle to be incredibly inefficient and unproductive because everyone says what they want right on the spot and have to wait for the other person to finish. 
+<br /><br />
+    <h2 id="conclusion">Conclusion</h2>
+    <p>In conclusion, this project has been helpful for me to learn about the importance and priorities in a group developing setting. I have learned more than enough of the importance of a project lead, someone who can resolve miscommunication issues and make sure the entire team is on track and on schedule. On the other hand, I found myself enjoying designing the database schemas and satisfying the automation script I wrote for deployment. I would say that I’m most proud of the database relation I designed and the automatic deployment I implemented over the codes I wrote for this application.</p>
+  </li>
+</ul>
+
+<p><a href="https://toilet-titans.github.io/">
+  <img src="https://github.com/fluidicon.png" alt="GitHub" width="25" />
+  Documentation page
+</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

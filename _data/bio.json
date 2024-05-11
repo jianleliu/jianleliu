@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "Jianle Liu",
+    "label": "Student",
+    "picture": "https://github.com/jianleliu.png",
+    "email": "liujl@hawaii.edu",
+    "website": "https://jianleliu.github.io/",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "profiles": [
+      { "network": "github", "username": "jianleliu", "url": "http://github.com/jianleliu" },
+      { "network": "linkedin", "username": "jianle liu", "url": "https://www.linkedin.com/in/jianle-liu-4a104728a/" },
+    ]
+  },
+  "interests": [
+    { "name": "Python scripting" },
+    { "name": "Reading" },
+    { "name": "Podcasts"},
+    { "name": "Gaming" },
+    { "name": "Drawing"}
+    
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": ["Java", "Javascript", "Python", "SQL", "Bash", "Bootstrap", "css", "html", "yaml", "markdown"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": ["Basic Linux Commands", "Git/GitHub", "Docker", "Github Runner", "AWS", "Digital Ocean","Meteor", "React", "mySQL", "Mongo", ""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-08",
+      "endDate": "2025-05",
+      "courses": ["ICS 111/211 - Intro to programming", "ICS 212 - Program Structure",
+                  "ICS 311 - Data Structure and Algorithm", "ICS 314 - Software Engineering I",
+                  "ICS 321 - Database Systems I", "ICS 332 - Operating Systems", "ICS 451 - Data Networking",
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2021-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+    {
+      "title": "UH Manoa Merit Scholarship",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Scholarship awarded to high school graduates with a GPA of 3.8 or higher."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

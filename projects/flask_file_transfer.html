@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Local File Transfer | Jian Le Liu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jianleliu.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jian Le Liu | Professional Portfolio">
+    <meta property="og:url" content="https://jianleliu.github.io/projects/flask_file_transfer.html">
+    <meta property="og:title" content="Local File Transfer | Jian Le Liu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jianleliu.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Local File Transfer | Jian Le Liu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jianle Liu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Local File Transfer</h1>
+ <h1 id="incentive">Incentive</h1>
+<p>I started this project because I was bored. It was back in March when I thought, “I want to do something practical with the SQL I’m learning in my Database System I class.” I didn’t really plan much; I just wanted to put together some HTML, Python, and SQL. But as I went along, I ran into problems because I didn’t plan things out well in advance.</p>
+
+<p>As a result, I ended up spending more time than I should have. I didn’t use Git for version control, I ran into errors, and I didn’t test things properly. I also tried to add more features, but they just made the project more complicated, so I had to remove them. Despite the messy code, I stuck with it and eventually achieved what I set out to do.</p>
+
+<p>The lesson I learned from this is that it’s important to plan and design your project properly, whether it’s simple or complex.
+<br /></p>
+<h1 id="features">Features</h1>
+
+<p><img class="img-fluid col-8" src="../img/flask_file_transfer/home_page.png" /></p>
+
+<p>On access, the home page will retrieve data from the database, processed by the server, and formatted with jquery before displaying it on the client side. Click the filename link to download the file.</p>
+
+<p><img class="img-fluid col-8" src="../img/flask_file_transfer/upload_page.png" /></p>
+
+<p>Client can select the file to upload with an option to put a enter a name. The name is defaulted to “No Name”. The maximum upload size can be changed in the config.py file. Once the client hit “Confirm”, the browser tab will start spinnning until the browser redirect the user to a result page of either “failed” or “sucess”.</p>
+
+<p><br /></p>
+
+<h1 id="possible-improvements">Possible Improvements</h1>
+<ol>
+  <li>Containerize the entire application, preferably a multistage dockerfile including MySQL.</li>
+  <li>Add a user login feature and database table.</li>
+  <li>Write tests.</li>
+  <li>Implement dashboard.</li>
+  <li>Implement try-except blocks.</li>
+</ol>
+<hr />
+
+<p><a href="https://github.com/jianleliu/flask_file_transfer">
+  <img src="https://github.com/fluidicon.png" alt="GitHub" width="25" />
+  jianleliu/flask_file_transfer
+</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
